@@ -1,0 +1,26 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - GROQ_BASE_URL=${GROQ_BASE_URL:-https://api.groq.com/openai/v1}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-all-MiniLM-L6-v2}
+      - GENERATION_MODEL=${GENERATION_MODEL:-llama-3.3-70b-versatile}
+      - LLM_JUDGE_MODEL=${LLM_JUDGE_MODEL:-llama-3.1-8b-instant}
+    volumes:
+      - ./data:/app/data
+    command: >
+      sh -c "python scripts/seed.py --strategy recursive &&
+             uvicorn app.api.main:app --host 0.0.0.0 --port 8000"
+
+  frontend:
+    build: .
+    command: streamlit run frontend/app.py --server.port 8501 --server.address 0.0.0.0
+    ports:
+      - "8501:8501"
+    environment:
+      - RAG_API_BASE=http://api:8000
+    depends_on:
+      - api

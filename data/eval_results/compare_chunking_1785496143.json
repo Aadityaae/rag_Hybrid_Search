@@ -1,0 +1,332 @@
+{
+  "fixed": {
+    "results": [
+      {
+        "id": "q1",
+        "type": "lookup",
+        "question": "What port does Postgres run on locally during setup?",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q2",
+        "type": "lookup",
+        "question": "What is the rate limit for read-only API keys?",
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q11",
+        "type": "multi_hop",
+        "question": "If a bad deploy triggers an automatic rollback, what should the on-call engineer do afterward according to both the deployment and incident processes?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": 0.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q12",
+        "type": "multi_hop",
+        "question": "What tool pages the on-call engineer, and what monitoring stack feeds alerts into it?",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 0.5,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q16",
+        "type": "no_answer",
+        "question": "What is the company's parental leave policy?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q17",
+        "type": "no_answer",
+        "question": "Which cloud provider hosts the production Kubernetes cluster?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q20",
+        "type": "ambiguous",
+        "question": "How does rollback work?",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q21",
+        "type": "ambiguous",
+        "question": "What's the process for a flag?",
+        "correctness": 0.2,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      }
+    ],
+    "summary": {
+      "n_cases": 8,
+      "avg_correctness": 0.825,
+      "avg_faithfulness": 0.625,
+      "avg_citation_accuracy": 0.833,
+      "avg_retrieval_relevance": 0.917,
+      "fallback_rate": 0.0,
+      "by_type": {
+        "lookup": {
+          "n": 2,
+          "avg_correctness": 0.9
+        },
+        "ambiguous": {
+          "n": 2,
+          "avg_correctness": 0.5
+        },
+        "multi_hop": {
+          "n": 2,
+          "avg_correctness": 0.9
+        },
+        "no_answer": {
+          "n": 2,
+          "avg_correctness": 1.0
+        }
+      }
+    }
+  },
+  "recursive": {
+    "results": [
+      {
+        "id": "q1",
+        "type": "lookup",
+        "question": "What port does Postgres run on locally during setup?",
+        "correctness": 0.9,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q2",
+        "type": "lookup",
+        "question": "What is the rate limit for read-only API keys?",
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q11",
+        "type": "multi_hop",
+        "question": "If a bad deploy triggers an automatic rollback, what should the on-call engineer do afterward according to both the deployment and incident processes?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": 0.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q12",
+        "type": "multi_hop",
+        "question": "What tool pages the on-call engineer, and what monitoring stack feeds alerts into it?",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 0.5,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q16",
+        "type": "no_answer",
+        "question": "What is the company's parental leave policy?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q17",
+        "type": "no_answer",
+        "question": "Which cloud provider hosts the production Kubernetes cluster?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q20",
+        "type": "ambiguous",
+        "question": "How does rollback work?",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q21",
+        "type": "ambiguous",
+        "question": "What's the process for a flag?",
+        "correctness": 0.2,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      }
+    ],
+    "summary": {
+      "n_cases": 8,
+      "avg_correctness": 0.838,
+      "avg_faithfulness": 0.625,
+      "avg_citation_accuracy": 0.833,
+      "avg_retrieval_relevance": 0.917,
+      "fallback_rate": 0.0,
+      "by_type": {
+        "lookup": {
+          "n": 2,
+          "avg_correctness": 0.95
+        },
+        "ambiguous": {
+          "n": 2,
+          "avg_correctness": 0.5
+        },
+        "multi_hop": {
+          "n": 2,
+          "avg_correctness": 0.9
+        },
+        "no_answer": {
+          "n": 2,
+          "avg_correctness": 1.0
+        }
+      }
+    }
+  },
+  "semantic": {
+    "results": [
+      {
+        "id": "q1",
+        "type": "lookup",
+        "question": "What port does Postgres run on locally during setup?",
+        "correctness": 0.9,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q2",
+        "type": "lookup",
+        "question": "What is the rate limit for read-only API keys?",
+        "correctness": 1.0,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q11",
+        "type": "multi_hop",
+        "question": "If a bad deploy triggers an automatic rollback, what should the on-call engineer do afterward according to both the deployment and incident processes?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": 0.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q12",
+        "type": "multi_hop",
+        "question": "What tool pages the on-call engineer, and what monitoring stack feeds alerts into it?",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 0.5,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q16",
+        "type": "no_answer",
+        "question": "What is the company's parental leave policy?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q17",
+        "type": "no_answer",
+        "question": "Which cloud provider hosts the production Kubernetes cluster?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q20",
+        "type": "ambiguous",
+        "question": "How does rollback work?",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q21",
+        "type": "ambiguous",
+        "question": "What's the process for a flag?",
+        "correctness": 0.0,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      }
+    ],
+    "summary": {
+      "n_cases": 8,
+      "avg_correctness": 0.812,
+      "avg_faithfulness": 0.625,
+      "avg_citation_accuracy": 0.833,
+      "avg_retrieval_relevance": 0.917,
+      "fallback_rate": 0.0,
+      "by_type": {
+        "lookup": {
+          "n": 2,
+          "avg_correctness": 0.95
+        },
+        "ambiguous": {
+          "n": 2,
+          "avg_correctness": 0.4
+        },
+        "multi_hop": {
+          "n": 2,
+          "avg_correctness": 0.9
+        },
+        "no_answer": {
+          "n": 2,
+          "avg_correctness": 1.0
+        }
+      }
+    }
+  }
+}

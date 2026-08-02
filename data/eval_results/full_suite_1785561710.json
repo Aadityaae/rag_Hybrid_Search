@@ -1,0 +1,230 @@
+{
+  "results": [
+    {
+      "id": "q1",
+      "type": "lookup",
+      "question": "What topic is discussed for England in Section 1 of the document?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": 0.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q2",
+      "type": "lookup",
+      "question": "Which section number covers the Group Stage discussion for Mexico?",
+      "correctness": 0.8,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q3",
+      "type": "lookup",
+      "question": "What topic is covered for Argentina, and in which section?",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q4",
+      "type": "lookup",
+      "question": "Which section discusses the Venue Guide for the United States?",
+      "correctness": 0.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": 0.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q5",
+      "type": "lookup",
+      "question": "What section number covers Historical Context for Mexico?",
+      "correctness": 0.9,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q6",
+      "type": "lookup",
+      "question": "What topic is discussed for Germany, and in which section?",
+      "correctness": 0.8,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q7",
+      "type": "lookup",
+      "question": "Which section discusses the Press Conference for Belgium?",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q8",
+      "type": "lookup",
+      "question": "What topic is covered for Croatia in Section 46?",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q9",
+      "type": "lookup",
+      "question": "Which section discusses Referee Analysis for Morocco?",
+      "correctness": 1.0,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q10",
+      "type": "lookup",
+      "question": "What topic is covered for Croatia in Section 51?",
+      "correctness": 0.8,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q11",
+      "type": "multi_hop",
+      "question": "List every topic the document covers for Brazil, and how many sections discuss Brazil in total.",
+      "correctness": 0.8,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q12",
+      "type": "multi_hop",
+      "question": "List every topic the document covers for Japan, and how many sections discuss Japan in total.",
+      "correctness": 0.4,
+      "faithfulness": 0.5,
+      "citation_accuracy": 0.5,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q13",
+      "type": "multi_hop",
+      "question": "Which countries have a 'Fan Culture' section in the document?",
+      "correctness": 0.8,
+      "faithfulness": 0.0,
+      "citation_accuracy": 0.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q14",
+      "type": "multi_hop",
+      "question": "Which countries have a 'Training Session' section, and how many are there in total?",
+      "correctness": 0.2,
+      "faithfulness": 0.5,
+      "citation_accuracy": 0.5,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q15",
+      "type": "no_answer",
+      "question": "What does the document say about Italy?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": null,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q16",
+      "type": "no_answer",
+      "question": "Which section discusses Fan Culture for Portugal?",
+      "correctness": 0.8,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": null,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q17",
+      "type": "no_answer",
+      "question": "What was the final score of the England vs. Brazil match according to this document?",
+      "correctness": 0.8,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": null,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q18",
+      "type": "no_answer",
+      "question": "Who won the 2026 FIFA World Cup according to this document?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": null,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q19",
+      "type": "ambiguous",
+      "question": "What does the document say about Canada?",
+      "correctness": 0.8,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q20",
+      "type": "ambiguous",
+      "question": "What is the tactical analysis in the document?",
+      "correctness": 0.2,
+      "faithfulness": 1.0,
+      "citation_accuracy": 1.0,
+      "retrieval_relevance": 1.0,
+      "fallback_triggered": false
+    }
+  ],
+  "summary": {
+    "n_cases": 20,
+    "avg_correctness": 0.755,
+    "avg_faithfulness": 0.6,
+    "avg_citation_accuracy": 0.75,
+    "avg_retrieval_relevance": 1.0,
+    "fallback_rate": 0.0,
+    "by_type": {
+      "no_answer": {
+        "n": 4,
+        "avg_correctness": 0.9
+      },
+      "multi_hop": {
+        "n": 4,
+        "avg_correctness": 0.55
+      },
+      "ambiguous": {
+        "n": 2,
+        "avg_correctness": 0.5
+      },
+      "lookup": {
+        "n": 10,
+        "avg_correctness": 0.83
+      }
+    }
+  }
+}

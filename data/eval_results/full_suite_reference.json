@@ -1,0 +1,40 @@
+{
+  "results": [
+    {"id": "q1", "type": "lookup", "correctness": 0.8, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q2", "type": "lookup", "correctness": 1.0, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q3", "type": "lookup", "correctness": 1.0, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q4", "type": "lookup", "correctness": 0.8, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q5", "type": "lookup", "correctness": 1.0, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q6", "type": "lookup", "correctness": 0.8, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q7", "type": "lookup", "correctness": 1.0, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q8", "type": "lookup", "correctness": 1.0, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q9", "type": "lookup", "correctness": 0.9, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q10", "type": "lookup", "correctness": 1.0, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q11", "type": "multi_hop", "correctness": 0.8, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q12", "type": "multi_hop", "correctness": 0.8, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q13", "type": "multi_hop", "correctness": 0.8, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q14", "type": "multi_hop", "correctness": 0.9, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q15", "type": "multi_hop", "correctness": 0.8, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q16", "type": "no_answer", "correctness": 1.0, "faithfulness": 0.0, "citation_accuracy": 0.0, "retrieval_relevance": null, "fallback_triggered": false},
+    {"id": "q17", "type": "no_answer", "correctness": 1.0, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": null, "fallback_triggered": false},
+    {"id": "q18", "type": "no_answer", "correctness": 1.0, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": null, "fallback_triggered": false},
+    {"id": "q19", "type": "no_answer", "correctness": 1.0, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": null, "fallback_triggered": false},
+    {"id": "q20", "type": "ambiguous", "correctness": 0.8, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q21", "type": "ambiguous", "correctness": 0.2, "faithfulness": 1.0, "citation_accuracy": 1.0, "retrieval_relevance": 1.0, "fallback_triggered": false},
+    {"id": "q22", "type": "ambiguous", "correctness": 1.0, "faithfulness": 0.5, "citation_accuracy": 0.5, "retrieval_relevance": 1.0, "fallback_triggered": false}
+  ],
+  "summary": {
+    "n_cases": 22,
+    "avg_correctness": 0.882,
+    "avg_faithfulness": 0.932,
+    "avg_citation_accuracy": 0.932,
+    "avg_retrieval_relevance": 1.0,
+    "fallback_rate": 0.0,
+    "by_type": {
+      "multi_hop": {"n": 5, "avg_correctness": 0.82},
+      "lookup": {"n": 10, "avg_correctness": 0.93},
+      "ambiguous": {"n": 3, "avg_correctness": 0.667},
+      "no_answer": {"n": 4, "avg_correctness": 1.0}
+    }
+  }
+}

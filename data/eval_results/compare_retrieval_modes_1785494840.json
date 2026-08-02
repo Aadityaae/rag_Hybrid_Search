@@ -1,0 +1,117 @@
+{
+  "rows": [
+    {
+      "id": "q1",
+      "type": "lookup",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q2",
+      "type": "lookup",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q3",
+      "type": "lookup",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q4",
+      "type": "lookup",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q5",
+      "type": "lookup",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q6",
+      "type": "lookup",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q7",
+      "type": "lookup",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q8",
+      "type": "lookup",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q9",
+      "type": "lookup",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q10",
+      "type": "lookup",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q11",
+      "type": "multi_hop",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q12",
+      "type": "multi_hop",
+      "dense_only_relevance": 0.5,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q13",
+      "type": "multi_hop",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q14",
+      "type": "multi_hop",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q15",
+      "type": "multi_hop",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q20",
+      "type": "ambiguous",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q21",
+      "type": "ambiguous",
+      "dense_only_relevance": 1.0,
+      "hybrid_relevance": 1.0
+    },
+    {
+      "id": "q22",
+      "type": "ambiguous",
+      "dense_only_relevance": 0.0,
+      "hybrid_relevance": 0.0
+    }
+  ],
+  "summary": {
+    "n_cases": 18,
+    "avg_dense_only_relevance": 0.917,
+    "avg_hybrid_relevance": 0.944
+  }
+}

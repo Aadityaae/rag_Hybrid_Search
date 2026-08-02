@@ -1,0 +1,332 @@
+{
+  "fixed": {
+    "results": [
+      {
+        "id": "q1",
+        "type": "lookup",
+        "question": "What topic is discussed for England in Section 1 of the document?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": 0.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q2",
+        "type": "lookup",
+        "question": "Which section number covers the Group Stage discussion for Mexico?",
+        "correctness": 0.9,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q11",
+        "type": "multi_hop",
+        "question": "List every topic the document covers for Brazil, and how many sections discuss Brazil in total.",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q12",
+        "type": "multi_hop",
+        "question": "List every topic the document covers for Japan, and how many sections discuss Japan in total.",
+        "correctness": 0.4,
+        "faithfulness": 0.5,
+        "citation_accuracy": 0.5,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q15",
+        "type": "no_answer",
+        "question": "What does the document say about Italy?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q16",
+        "type": "no_answer",
+        "question": "Which section discusses Fan Culture for Portugal?",
+        "correctness": 0.8,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q19",
+        "type": "ambiguous",
+        "question": "What does the document say about Canada?",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q20",
+        "type": "ambiguous",
+        "question": "What is the tactical analysis in the document?",
+        "correctness": 0.2,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      }
+    ],
+    "summary": {
+      "n_cases": 8,
+      "avg_correctness": 0.738,
+      "avg_faithfulness": 0.562,
+      "avg_citation_accuracy": 0.75,
+      "avg_retrieval_relevance": 1.0,
+      "fallback_rate": 0.0,
+      "by_type": {
+        "multi_hop": {
+          "n": 2,
+          "avg_correctness": 0.6
+        },
+        "ambiguous": {
+          "n": 2,
+          "avg_correctness": 0.5
+        },
+        "no_answer": {
+          "n": 2,
+          "avg_correctness": 0.9
+        },
+        "lookup": {
+          "n": 2,
+          "avg_correctness": 0.95
+        }
+      }
+    }
+  },
+  "recursive": {
+    "results": [
+      {
+        "id": "q1",
+        "type": "lookup",
+        "question": "What topic is discussed for England in Section 1 of the document?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q2",
+        "type": "lookup",
+        "question": "Which section number covers the Group Stage discussion for Mexico?",
+        "correctness": 0.9,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q11",
+        "type": "multi_hop",
+        "question": "List every topic the document covers for Brazil, and how many sections discuss Brazil in total.",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q12",
+        "type": "multi_hop",
+        "question": "List every topic the document covers for Japan, and how many sections discuss Japan in total.",
+        "correctness": 0.4,
+        "faithfulness": 0.5,
+        "citation_accuracy": 0.5,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q15",
+        "type": "no_answer",
+        "question": "What does the document say about Italy?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q16",
+        "type": "no_answer",
+        "question": "Which section discusses Fan Culture for Portugal?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q19",
+        "type": "ambiguous",
+        "question": "What does the document say about Canada?",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q20",
+        "type": "ambiguous",
+        "question": "What is the tactical analysis in the document?",
+        "correctness": 0.2,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      }
+    ],
+    "summary": {
+      "n_cases": 8,
+      "avg_correctness": 0.763,
+      "avg_faithfulness": 0.562,
+      "avg_citation_accuracy": 0.9,
+      "avg_retrieval_relevance": 1.0,
+      "fallback_rate": 0.0,
+      "by_type": {
+        "multi_hop": {
+          "n": 2,
+          "avg_correctness": 0.6
+        },
+        "ambiguous": {
+          "n": 2,
+          "avg_correctness": 0.5
+        },
+        "no_answer": {
+          "n": 2,
+          "avg_correctness": 1.0
+        },
+        "lookup": {
+          "n": 2,
+          "avg_correctness": 0.95
+        }
+      }
+    }
+  },
+  "semantic": {
+    "results": [
+      {
+        "id": "q1",
+        "type": "lookup",
+        "question": "What topic is discussed for England in Section 1 of the document?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": 0.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q2",
+        "type": "lookup",
+        "question": "Which section number covers the Group Stage discussion for Mexico?",
+        "correctness": 0.9,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q11",
+        "type": "multi_hop",
+        "question": "List every topic the document covers for Brazil, and how many sections discuss Brazil in total.",
+        "correctness": 0.8,
+        "faithfulness": 0.5,
+        "citation_accuracy": 0.5,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q12",
+        "type": "multi_hop",
+        "question": "List every topic the document covers for Japan, and how many sections discuss Japan in total.",
+        "correctness": 0.8,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q15",
+        "type": "no_answer",
+        "question": "What does the document say about Italy?",
+        "correctness": 1.0,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q16",
+        "type": "no_answer",
+        "question": "Which section discusses Fan Culture for Portugal?",
+        "correctness": 0.8,
+        "faithfulness": 0.0,
+        "citation_accuracy": null,
+        "retrieval_relevance": null,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q19",
+        "type": "ambiguous",
+        "question": "What does the document say about Canada?",
+        "correctness": 0.4,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      },
+      {
+        "id": "q20",
+        "type": "ambiguous",
+        "question": "What is the tactical analysis in the document?",
+        "correctness": 0.2,
+        "faithfulness": 1.0,
+        "citation_accuracy": 1.0,
+        "retrieval_relevance": 1.0,
+        "fallback_triggered": false
+      }
+    ],
+    "summary": {
+      "n_cases": 8,
+      "avg_correctness": 0.738,
+      "avg_faithfulness": 0.562,
+      "avg_citation_accuracy": 0.75,
+      "avg_retrieval_relevance": 1.0,
+      "fallback_rate": 0.0,
+      "by_type": {
+        "multi_hop": {
+          "n": 2,
+          "avg_correctness": 0.8
+        },
+        "ambiguous": {
+          "n": 2,
+          "avg_correctness": 0.3
+        },
+        "no_answer": {
+          "n": 2,
+          "avg_correctness": 0.9
+        },
+        "lookup": {
+          "n": 2,
+          "avg_correctness": 0.95
+        }
+      }
+    }
+  }
+}

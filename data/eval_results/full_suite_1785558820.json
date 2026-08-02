@@ -1,0 +1,250 @@
+{
+  "results": [
+    {
+      "id": "q1",
+      "type": "lookup",
+      "question": "What port does Postgres run on locally during setup?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q2",
+      "type": "lookup",
+      "question": "What is the rate limit for read-only API keys?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q3",
+      "type": "lookup",
+      "question": "How long does staging canary traffic run before full rollout?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q4",
+      "type": "lookup",
+      "question": "How many approvals are required to merge a pull request?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q5",
+      "type": "lookup",
+      "question": "How long are logs retained in hot storage?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q6",
+      "type": "lookup",
+      "question": "What HTTP status code is returned when an API key is valid but lacks the required scope?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q7",
+      "type": "lookup",
+      "question": "When does the weekly database migration window occur?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q8",
+      "type": "lookup",
+      "question": "After how many days is a feature flag flagged for cleanup?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q9",
+      "type": "lookup",
+      "question": "How soon must a postmortem be completed after a SEV1 or SEV2 incident?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q10",
+      "type": "lookup",
+      "question": "How long before the secondary on-call is paged if the primary doesn't acknowledge?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q11",
+      "type": "multi_hop",
+      "question": "If a bad deploy triggers an automatic rollback, what should the on-call engineer do afterward according to both the deployment and incident processes?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q12",
+      "type": "multi_hop",
+      "question": "What tool pages the on-call engineer, and what monitoring stack feeds alerts into it?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q13",
+      "type": "multi_hop",
+      "question": "Before an engineer can join the on-call rotation, what two prerequisites must they complete based on onboarding and on-call docs?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q14",
+      "type": "multi_hop",
+      "question": "Why are database migrations kept separate from the deploy pipeline, and what review step do they require that regular deploys don't?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q15",
+      "type": "multi_hop",
+      "question": "What are two alternative ways to de-risk a risky change, and how do they differ?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q16",
+      "type": "no_answer",
+      "question": "What is the company's parental leave policy?",
+      "correctness": 0.8,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": null,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q17",
+      "type": "no_answer",
+      "question": "Which cloud provider hosts the production Kubernetes cluster?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": null,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q18",
+      "type": "no_answer",
+      "question": "What is the CEO's name?",
+      "correctness": 0.8,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": null,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q19",
+      "type": "no_answer",
+      "question": "What programming language is the core platform written in?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": null,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q20",
+      "type": "ambiguous",
+      "question": "How does rollback work?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q21",
+      "type": "ambiguous",
+      "question": "What's the process for a flag?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    },
+    {
+      "id": "q22",
+      "type": "ambiguous",
+      "question": "What happens after two weeks?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": 0.0,
+      "fallback_triggered": false
+    }
+  ],
+  "summary": {
+    "n_cases": 22,
+    "avg_correctness": 0.982,
+    "avg_faithfulness": 0.0,
+    "avg_citation_accuracy": null,
+    "avg_retrieval_relevance": 0.0,
+    "fallback_rate": 0.0,
+    "by_type": {
+      "no_answer": {
+        "n": 4,
+        "avg_correctness": 0.9
+      },
+      "multi_hop": {
+        "n": 5,
+        "avg_correctness": 1.0
+      },
+      "ambiguous": {
+        "n": 3,
+        "avg_correctness": 1.0
+      },
+      "lookup": {
+        "n": 10,
+        "avg_correctness": 1.0
+      }
+    }
+  }
+}

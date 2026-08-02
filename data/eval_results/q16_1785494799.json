@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "id": "q16",
+      "type": "no_answer",
+      "question": "What is the company's parental leave policy?",
+      "correctness": 1.0,
+      "faithfulness": 0.0,
+      "citation_accuracy": null,
+      "retrieval_relevance": null,
+      "fallback_triggered": false,
+      "answer": "The context does not contain enough information to answer the question about the company's parental leave policy.",
+      "citation_report": {
+        "claims": [
+          {
+            "claim": "The context does not contain enough information to answer the question about the company's parental leave policy.",
+            "cited_indices": [],
+            "status": "uncited"
+          }
+        ],
+        "total_claims": 1,
+        "cited_claims": 0,
+        "verified_claims": 0,
+        "uncited_claims": 1,
+        "unsupported_claims": 0,
+        "citation_coverage": 0.0
+      },
+      "confidence": {
+        "retrieval_confidence": 0.0,
+        "citation_coverage": 0.0,
+        "answer_completeness": 0.0,
+        "composite_confidence": 0.0,
+        "below_threshold": true
+      },
+      "retrieved_sources": [
+        "logging-and-monitoring.md",
+        "logging-and-monitoring.md",
+        "on-call-rotation.md",
+        "on-call-rotation.md",
+        "incident-response.md"
+      ]
+    }
+  ],
+  "summary": {
+    "n_cases": 1,
+    "avg_correctness": 1.0,
+    "avg_faithfulness": 0.0,
+    "avg_citation_accuracy": null,
+    "avg_retrieval_relevance": null,
+    "fallback_rate": 0.0,
+    "by_type": {
+      "no_answer": {
+        "n": 1,
+        "avg_correctness": 1.0
+      }
+    }
+  }
+}

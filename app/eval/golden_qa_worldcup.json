@@ -1,0 +1,25 @@
+[
+  {"id": "q1", "type": "lookup", "question": "What topic is discussed for England in Section 1 of the document?", "expected_answer": "Tactical Analysis.", "source_docs": ["wc.md"]},
+  {"id": "q2", "type": "lookup", "question": "Which section number covers the Group Stage discussion for Mexico?", "expected_answer": "Section 3.", "source_docs": ["wc.md"]},
+  {"id": "q3", "type": "lookup", "question": "What topic is covered for Argentina, and in which section?", "expected_answer": "Referee Analysis, in Section 10.", "source_docs": ["wc.md"]},
+  {"id": "q4", "type": "lookup", "question": "Which section discusses the Venue Guide for the United States?", "expected_answer": "Section 32.", "source_docs": ["wc.md"]},
+  {"id": "q5", "type": "lookup", "question": "What section number covers Historical Context for Mexico?", "expected_answer": "Section 39.", "source_docs": ["wc.md"]},
+  {"id": "q6", "type": "lookup", "question": "What topic is discussed for Germany, and in which section?", "expected_answer": "Match Report, in Section 38.", "source_docs": ["wc.md"]},
+  {"id": "q7", "type": "lookup", "question": "Which section discusses the Press Conference for Belgium?", "expected_answer": "Section 9.", "source_docs": ["wc.md"]},
+  {"id": "q8", "type": "lookup", "question": "What topic is covered for Croatia in Section 46?", "expected_answer": "Group Stage.", "source_docs": ["wc.md"]},
+  {"id": "q9", "type": "lookup", "question": "Which section discusses Referee Analysis for Morocco?", "expected_answer": "Section 47.", "source_docs": ["wc.md"]},
+  {"id": "q10", "type": "lookup", "question": "What topic is covered for Croatia in Section 51?", "expected_answer": "Training Session.", "source_docs": ["wc.md"]},
+
+  {"id": "q11", "type": "multi_hop", "question": "List every topic the document covers for Brazil, and how many sections discuss Brazil in total.", "expected_answer": "Player Spotlight (Sections 18, 25, 52), Tournament Overview (Section 19), Historical Context (Section 24), and Group Stage (Section 45) -- 6 sections total.", "source_docs": ["wc.md"]},
+  {"id": "q12", "type": "multi_hop", "question": "List every topic the document covers for Japan, and how many sections discuss Japan in total.", "expected_answer": "Fan Culture (Section 7), Player Spotlight (Sections 13, 23), Referee Analysis (Section 20), Match Report (Sections 34, 49), and Training Session (Section 37) -- 7 sections total.", "source_docs": ["wc.md"]},
+  {"id": "q13", "type": "multi_hop", "question": "Which countries have a 'Fan Culture' section in the document?", "expected_answer": "Japan, Canada (twice), England, Uruguay, and Spain.", "source_docs": ["wc.md"]},
+  {"id": "q14", "type": "multi_hop", "question": "Which countries have a 'Training Session' section, and how many are there in total?", "expected_answer": "England, Spain, Portugal, France, Japan, Croatia, and Uruguay -- 7 Training Session sections.", "source_docs": ["wc.md"]},
+
+  {"id": "q15", "type": "no_answer", "question": "What does the document say about Italy?", "expected_answer": "Italy is not discussed anywhere in the document.", "source_docs": []},
+  {"id": "q16", "type": "no_answer", "question": "Which section discusses Fan Culture for Portugal?", "expected_answer": "There is no Fan Culture section for Portugal -- Portugal's sections cover Tournament Overview, Match Report, and Training Session only.", "source_docs": []},
+  {"id": "q17", "type": "no_answer", "question": "What was the final score of the England vs. Brazil match according to this document?", "expected_answer": "The document contains no match scores or results -- it is generic tactical/cultural commentary text, not results data.", "source_docs": []},
+  {"id": "q18", "type": "no_answer", "question": "Who won the 2026 FIFA World Cup according to this document?", "expected_answer": "The document never states a tournament winner.", "source_docs": []},
+
+  {"id": "q19", "type": "ambiguous", "question": "What does the document say about Canada?", "expected_answer": "Ambiguous -- Canada appears in two separate, identically-titled 'Fan Culture' sections (8 and 11) with near-identical content; a good answer should note the duplication rather than treat it as one section.", "source_docs": ["wc.md"]},
+  {"id": "q20", "type": "ambiguous", "question": "What is the tactical analysis in the document?", "expected_answer": "Ambiguous without a country -- the document has two Tactical Analysis sections (England in Section 1, Netherlands in Sections 26 and 44); a good answer should ask which country or cover both.", "source_docs": ["wc.md"]}
+]
