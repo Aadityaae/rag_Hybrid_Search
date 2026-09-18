@@ -143,15 +143,3 @@ pytest tests/ -v
 
 Covers loaders, all three chunking strategies, dedup, BM25, and RRF fusion — the
 parts of the pipeline that don't require API calls, so they run without a key.
-
-## Notes on scope / what to extend before treating this as final
-
-- The golden eval set is a 22-question starter, not the full 50+ the case study should
-  cite — extend it against your real corpus before publishing numbers.
-- Semantic chunking is intentionally embedding-driven and injected via `embed_fn`, so
-  swapping the embedding provider doesn't touch the chunker itself.
-- `min_retrieval_confidence` and the RRF dense/sparse weighting (`app/config.py`) are
-  starting points — tune both against your eval suite, not by feel.
-- The reranker and citation verifier both call an LLM judge per-chunk/per-claim, which
-  adds latency and cost proportional to `rerank_candidate_pool` and answer length —
-  worth capping or batching before scaling traffic.
